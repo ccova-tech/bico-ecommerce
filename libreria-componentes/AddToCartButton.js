@@ -1,3 +1,15 @@
+import {AddToCartButton} from '@shopify/hydrogen-react';
+
+export default function ProductAddToCartButton({product}) {
+  const variantId = product.variants[0].id;
+
+  if (!variantId) {
+    return null;
+  }
+
+  return <AddToCartButton variantId={variantId} />;
+}
+
 /*
 
 AddToCartButton
@@ -61,14 +73,3 @@ A ref to the underlying button
 
 */
 
-import {AddToCartButton} from '@shopify/hydrogen-react';
-
-export default function ProductAddToCartButton({product}) {
-  const variantId = product.variants[0].id;
-
-  if (!variantId) {
-    return null;
-  }
-
-  return <AddToCartButton variantId={variantId} />;
-}
