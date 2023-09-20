@@ -11,6 +11,7 @@ import {
   dashboardSearchContent, 
   dashboardGraph
 } from './phone-dashboard-css'
+import zapatophone from '/zapatophone.png'
 import Bicologo from './Bicologo'
 import dashboard1 from '/dashboard.png'
 
@@ -64,10 +65,13 @@ export default function HeroBico() {
                 <div className='basis-1/2 flex justify-center mt-[10%] 2xl:mt-[20%]'>
                     <div style={phone} className='relative'>
                         <div style={phoneFront}>
-                            <div style={phoneContent} className='flex justify-center relative '>
+                            <div style={phoneContent} className='flex justify-center relative'>
                                 {/* <video className="h-full w-[95%] rounded-[28px]" autoPlay muted playsinline loop>
                                     <source src={videophone1} type="video/mp4"/>
                                 </video> */}
+                                <div className='w-[364px] h-[533px] absolute top-0 shadow-xl rounded'>
+                                    <img src={zapatophone} alt="zapatophone" className='absolute top-0 w-[800px]'/>
+                                </div>
                             </div>
                         </div>
                         <div className='absolute -bottom-10 2xl:-bottom-32 -right-40 w-[300px]'>
