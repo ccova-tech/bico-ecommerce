@@ -1,8 +1,15 @@
-# React + Vite
+# Bico Ecommerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Automatización de Ecommerce
 
-Currently, two official plugins are available:
+Desarrollamos tecnologías para la gestión automatizada de canales de ventas online
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Plataforma Bico
+
+Plataforma tecnológica conformada por un conjunto de soluciones de software enfocados en la automatización de procesos y gestión automatidada de canales de ventas online:
+
+1. Librería de Componentes UI/UX
+
+2. Bico Copilot / Microservices
+
+3. Bico Headless Commerce
